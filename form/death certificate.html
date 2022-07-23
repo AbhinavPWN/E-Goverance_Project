@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>User Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="css/loksewa.css">
+</head>
+<body>
+	<form action="" method="post">
+		<fieldset>
+		<h3>User Registration</h3>
+		<p><u> <i>Instructions to fill Online Application Form </i></u> </p>
+		<div class="group">
+			<b>Name(In English)</b>
+			<hr>
+			<label>FirstName:</label>
+			<input type="text" name="firstname"> 
+			<label>Middle Name:</label>
+			<input type="text" name="middlename">
+			<label>Last Name:</label>
+			<input type="text" name="lastname"> 
+		</div>
+		<br>
+		<div class="group">
+		<b>Name(In Nepali)</b>
+			<hr>
+			<label>FirstName:</label>
+			<input type="text" name="firstname">	
+			<label>Middle Name:</label>
+			<input type="text" name="middlename">
+			<label>Last Name:</label>
+			<input type="text" name="lastname">
+		</div>
+		<br>
+		<div class="group">
+		<b>Date of Birth:</b>
+		<hr>
+		<p  font-color="red">Please fill date according to your citizenship.</p>
+		<label> DOB in B.S.</label>
+		<select name="day">
+			<option name="day">Day</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option></select>
+		<select name="month">
+			<option name="month">Month</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option></select>
+		<select name="year">
+			<option name="year">Year</option>	
+			<option>2068</option>
+			<option>2069</option>
+			<option>2073</option>	
+		</select>
+		<label> DOB in A.D.</label>
+		<input type="date" name="date">
+		
+		<label for=gender>Gender:</label>
+			<select name="gender">
+				 <option value="option">Please select one option</option>
+				  <option value="male">Male</option>
+				  <option value="female">Female</option>
+				  <option value="others">Others</option>
+			</select>
+		</div><br>
+		<div class="group">
+			<b>Father's Name:</b>
+			<hr>
+			<label>First name:</label>
+			<input type="text" name="firstname">
+			<label>Middle Name:</label>
+			<input type="text" name="middlename">
+			<label>Last Name:</label>
+			<input type="text" name="lastname">
+		</div><br>
+		<div class="group">
+			<b>Mother's Name</b>
+			<hr>
+			<label>First name:</label>
+			<input type="text" name="firstname">
+			<label>Middle Name:</label>
+			<input type="text" name="middlename">
+			<label>Last Name:</label>
+			<input type="text" name="lastname">
+		</div><br>
+		<div class="group">
+			<b>Grandfather's Name</b>
+			<hr>
+			<label>First name:</label>
+			<input type="text" name="firstname">
+			<label>Middle Name:</label>
+			<input type="text" name="middlename">
+			<label>Last Name:</label>
+			<input type="text" name="lastname">
+		</div><br>
+		<div class="group">
+			<b>Spouse's Name</b>
+			<hr>
+			<label>First name:</label>
+			<input type="text" name="firstname">
+			<label>Middle Name:</label>
+			<input type="text" name="middlename">
+			<label>Last Name:</label>
+			<input type="text" name="lastname">
+		</div><br>
+		<div class="group">
+			<b>Citizenship</b>
+			<hr>
+			<label> Citizenship No.</label>
+			<input type="number" name="citizenname">
+			<label for=district>Issued District:</label>
+			<select name="district">
+				 <option value="option">Please select one value</option>
+				  <option value="kathmandu">Kathmandu</option>
+				  <option value="bhaktapur">Bhaktapur</option>
+				  <option value="lalitpur">Lalitpur</option>
+				  <option value="others">Others</option>
+			</select>
+		<label>Issued Date</label>
+		<select name="day">
+			<option name="day">Day</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option></select>
+		<select name="month">
+			<option name="month">Month</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option></select>
+		<select name="year">
+			<option name="year">Year</option>	
+			<option>2000</option>
+			<option>2001</option>
+			<option>2003</option>	
+		</select>
+		</div><br>
+        <div class="group">
+			<b>Death</b>
+			<hr>
+			
+			<label for=district>Cause of Death</label>
+			<select name="district">
+				 <option value="option">Please select one value</option>
+				  <option value="natural">Kathmandu</option>
+				  <option value="accident">Bhaktapur</option>
+				  <option value="murder">Lalitpur</option>
+				  <option value="others">Others</option>
+			</select>
+            <label>Death On:</label>
+            <label>  in B.S.</label>
+            <select name="day">
+                <option name="day">Day</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option></select>
+            <select name="month">
+                <option name="month">Month</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option></select>
+            <select name="year">
+                <option name="year">Year</option>	
+                <option>2068</option>
+                <option>2069</option>
+                <option>2073</option>	
+            </select>
+            <label> in A.D.</label>
+            <input type="date" name="date">
+		
+	 <br>
+		<button type="save" id="button" value="Save">Save</button>
+	</fieldset>
+	</form>
+</body>
+</html>
